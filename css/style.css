@@ -1,0 +1,42 @@
+@import url(reset.css);
+
+header {
+  background-color: #fff;
+  box-shadow: 5px 0 15px #00000022;
+
+}
+
+nav {
+  width: 1100px;
+}
+
+nav > div {
+  height: 70px;
+}
+
+.logo {
+  border: 1px solid #000;
+  float: left;
+}
+
+.logo a {
+  width: 25px;
+}
+
+.logo a img {
+  width: inherit;
+}
+
+.gnb {
+  width: 700px;
+  border: 1px solid #f00;
+  display: inline-block;
+  /* 
+  Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
+  */
+}
+
+.lnb {
+  border: 1px solid #00f;
+  float: right;
+}
