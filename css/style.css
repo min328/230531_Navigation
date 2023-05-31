@@ -8,35 +8,51 @@ header {
 
 nav {
   width: 1100px;
+  margin: auto;
+  text-align: center;
 }
 
 nav > div {
   height: 70px;
+  line-height: 70px;
 }
 
 .logo {
-  border: 1px solid #000;
   float: left;
 }
 
 .logo a {
-  width: 25px;
+  width: 35px;
 }
 
 .logo a img {
   width: inherit;
 }
 
+.logo span {
+  margin-left: 10px;
+}
+
 .gnb {
   width: 700px;
-  border: 1px solid #f00;
   display: inline-block;
   /* 
   Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.
   */
 }
 
+.gnb a {
+  margin: 10px;
+}
+
 .lnb {
-  border: 1px solid #00f;
   float: right;
+}
+
+.lnb a {
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 10px;
+  background-color: teal;
+
 }
